@@ -11,7 +11,9 @@ import SwiftUI
 struct Assignment3App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                IngredientInput()
+            }
         }
     }
 }
